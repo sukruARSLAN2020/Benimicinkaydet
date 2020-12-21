@@ -1,0 +1,112 @@
+
+SAYILAR VE ÝÞLEMLER 
+Doðal Sayýlarla Ýþlemler  Terimler veya kavramlar: doðal sayýlar, kuvvet (üs), taban, üslü ifade  Semboller: çarpma iþareti: “ _ ” 
+Bir doðal sayýnýn kendisiyle tekrarlý çarpýmýný üslü ifade olarak yazar ve deðerini hesaplar_ 
+Ýþlem önceliðini dikkate alarak doðal sayýlarla dört iþlem yapar_ 
+Doðal sayýlarda ortak çarpan parantezine alma ve daðýlma özelliðini uygulamaya yönelik iþlemler yapar_ 
+Eþitliklerin anlamlý öðrenilmesi için modellerden yararlanýlýr_
+Örneðin aþaðýdaki dikdörtgenin alaný hesaplanýrken parantez kullanmayla ilgili verilen 5(2+8) = 5_2 + 5_8 ve 5_2 + 5_8 = 5(2+8) gibi durumlar ayrý ayrý incelenebilir_
+Doðal sayýlarla dört iþlem yapmayý gerektiren problemleri çözer ve kurar_  Ýþlemler yapýlýrken iþlem özellikleri kullanýlýr_ 
+Çarpanlar ve Katlar  Terimler veya kavramlar: çarpan, kat, bölen, asal sayý, ortak bölen, ortak kat 
+Doðal sayýlarýn çarpanlarýný ve katlarýný belirler_
+2, 3, 4, 5, 6, 9 ve 10’a kalansýz bölünebilme kurallarýný açýklar ve kullanýr_
+6 ya kalansýz bölünebilme kuralýnýn 2 ve 3’e kalansýz bölünebilme kuralýndan yararlanýlarak geliþtirilebileceði dikkate alýnýr_
+Kurallarýn kullanýmýnda harfli ifadelere yer verilmez_ 
+Asal sayýlarý özellikleriyle belirler_  Eratosthenes (Eratosten) kalburu yardýmýyla 100’e kadar olan asal sayýlar bulunur_ 
+Doðal sayýlarýn asal çarpanlarýný belirler_
+Ýki doðal sayýnýn ortak bölenleri ile ortak katlarýný belirler, ilgili problemleri çözer_  Ýki doðal sayýnýn en büyük ortak bölenini (EBOB) ve en küçük ortak katýný (EKOK) bulmaya yönelik problemlere bu sýnýf düzeyinde girilmez_ 
+Kümeler  Terimler veya kavramlar: küme, eleman, eleman sayýsý, boþ küme, birleþim, kesiþim  Semboller: { }, , , s(A), , , 
+Kümeler ile ilgili temel kavramlarý anlar_ 
+Kümelerin farklý gösterimlerine (liste, ortak özellik ve venn þemasý yöntemi) yer verilir_ 
+Küme, eleman, eleman sayýsý, boþ küme, birleþim, kesiþim kavramlarý verilir_ Çalýþmalarda kavramsal düzeyde kalýnýr_ 
+Tam Sayýlar  Terimler veya kavramlar: tam sayý, pozitif tam sayý, negatif tam sayý, mutlak deðer  Semboller: ? , ?+, ?-,?a? 
+Tam sayýlarý tanýr ve sayý doðrusunda gösterir_ 
+Tam sayýlara olan ihtiyacýn fark edilmesine yönelik çalýþmalara yer verilir_
+Pozitif ve negatif tam sayýlarýn zýt yön ve deðerleri ifade etmede kullanýldýðý vurgulanýr_ Örneðin asansörde katlarýn belirtilmesi, hava sýcaklýklarý vb_ 
+Tam sayýlarý karþýlaþtýrýr ve sýralar_ a) Karþýlaþtýrma yaparken büyük sayýnýn küçük sayýya kýyasla sayý doðrusunun daha saðýnda olduðu vurgulanýr_ b) Tam sayýlarý karþýlaþtýrma ve sýralamayla ilgili gerçek hayat durumlarýný içeren çalýþmalara yer verilir_ 
+Bir tam sayýnýn mutlak deðerini belirler ve anlamlandýrýr_  Mutlak deðerin sayý doðrusunda ve gerçek hayatta (asansör, termometre vb_) ne anlama geldiði üzerinde durulur_ 
+Kesirlerle Ýþlemler 
+Kesirleri karþýlaþtýrýr, sýralar ve sayý doðrusunda gösterir_  Kesirleri sýralamada kullanýlacak stratejiler belirlenirken ilk önce öðrencilerin kendi stratejilerini oluþturmalarýna imkân verilir_ Kullanýlabilecek stratejiler: kesirlerin bütüne olan yakýnlýklarý, yarýmdan büyük veya küçük olmalarý, yarýma olan yakýnlýklarý, birim kesirlerin karþýlaþtýrýlmasý, payda eþitleme (denk kesirlerin dikkate alýnmasý)_ 
+Kesirlerle toplama ve çýkarma iþlemlerini yapar_  Gerçek hayat durumlarý ve uygun kesir modelleriyle yapýlacak çalýþmalara yer verilir_
+Bir doðal sayý ile bir kesrin çarpma iþlemini yapar ve anlamlandýrýr_ 
+Örneðin 6 _ ? ifadesinin 6 tane ?’ün toplamý anlamýna geldiði ve ? _ 6 ifadesinin de 6’nýn ? kadarý olduðu ve bu iþlemlerin ayný sonucu verdiði vurgulanýr_ 
+Gerçek hayat durumlarý ve uygun kesir modelleriyle yapýlacak çalýþmalara yer verilir_ 
+Bir doðal sayý 1’den büyük bir kesirle çarpýldýðýnda sonucun bu sayýdan büyük bir sayý, 1’den küçük bir kesirle çarpýldýðýnda ise bu sayýdan küçük bir sayý olduðunu anlamaya yönelik çalýþmalara yer verilir_
+Ýki kesrin çarpma iþlemini yapar ve anlamlandýrýr_ 
+Örneðin 1/2 _ 2/5 ifadesinin 2/5’in 1/2 ’si (yani yarýsý) ve 2/5 _ ½  ifadesinin 1/2’nin 2/5’i anlamýna geldiði vurgulanýr_ 
+Gerçek hayat durumlarý ve uygun kesir modelleriyle yapýlacak çalýþmalara yer verilir_ 
+Bir doðal sayýyý bir kesre ve bir kesri bir doðal sayýya böler, bu iþlemi anlamlandýrýr_
+Ýlk önce birim kesirlerle iþlemler yapýlýr_Örneðin 6 ÷ 1/2 ifadesinin 6’nýn içinde kaç tane 1/2 olduðu, 1/2 ÷ 2 ifadesinin de 1/2 yi 2’ye bölmek (yani 1/2 ’nin yarýsý) olduðu modellerle fark ettirilir_ Daha sonra diðer kesirlerle iþlemler ele alýnýr_ Örneðin 3 ÷ 3/4 ifadesinin 3’ün içinde kaç tane 3/4 olduðu, 3/4 ÷ 3 ifadesinin de 3/4 ’ü 3’e bölmek olduðu modellerle fark ettirilir_
+Bir doðal sayý 1’den büyük bir kesre bölündüðünde sonucun bu sayýdan küçük bir sayý, 1’den küçük bir kesre bölündüðünde ise bu sayýdan büyük bir sayý olduðunu anlamaya yönelik çalýþmalara yer verilir_
+Ýki kesrin bölme iþlemini yapar ve anlamlandýrýr_  Bölme iþlemi anlamlandýrýlýrken büyük kesrin küçük kesre bölündüðü ve sonucun tam sayý çýktýðý basit iþlemler üzerinde durulur_ Örneðin 1/2 ÷ 1/4 ifadesinin, yarýmýn içinde kaç tane çeyrek olduðu anlamýna geldiði modellerle ele alýnýr_ 
+Kesirlerle yapýlan iþlemlerin sonucunu tahmin eder_  Çeyrek, üçte bir, yarým gibi kesirlerin kullanýlabileceði günlük hayata iliþkin tahminlerle sýnýrlý kalýnýr_ 
+Kesirlerle iþlem yapmayý gerektiren problemleri çözer_ 
+Ondalýk Gösterim  Terimler veya kavramlar: çözümleme
+Bölme iþlemi ile kesir kavramýný iliþkilendirir_
+Kesir gösteriminin ayný zamanda bölme iþlemini de ifade ettiði vurgulanýr_ Örneðin 9/2 kesri ayný zamanda 9’un 2’ye bölünmesi anlamýný taþýr_ Bu kazaným kapsamýnda tam bölünemeyen doðal sayýlarla bölme iþlemi yapmaya yönelik çalýþmalara da yer verilir_ Bölme iþleminde virgül kullanýmý üzerinde durulur_ Virgülden sonra en çok üç basamaklý sayýlarla sýnýrlý kalýnýr_
+Devirli ondalýk gösterimler tanýtýlýr fakat devirli ondalýk gösterimlerin kesre dönüþtürülmesine girilmez_ 
+Ondalýk gösterimleri verilen sayýlarý çözümler_  Örneðin 253,47=2_100 + 5 _10 + 3 _1 + 4 _ 1/10  + 7 _ 1/100   253,47=2_100 + 5 _10 + 3 _1 + 4 _ 0,1 + 7 _ 0,01
+Ondalýk gösterimleri verilen sayýlarý belirli bir basamaða kadar yuvarlar_  Sayýlarý yuvarlamanýn saðladýðý kolaylýklar üzerinde durulur_ 
+Ondalýk gösterimleri verilen sayýlarla çarpma iþlemi yapar_ a) Çarpma iþleminin anlamlandýrýlmasýna yönelik çalýþmalara yer verilir_ b) Bir doðal sayý 1’den küçük bir ondalýk ifadeyle çarpýldýðýnda sonucun o sayýdan küçük olduðunun fark edilmesine yönelik çalýþmalara yer verilir_ M_6_1_6_5_ Ondalýk gösterimleri verilen sayýlarla bölme iþlemi yapar_  Bölme iþleminin anlamlandýrýlmasýna yönelik çalýþmalara yer verilir_ 
+Ondalýk gösterimleri verilen sayýlarla; 10, 100 ve 1000 ile kýsa yoldan çarpma ve bölme iþlemlerini yapar_
+Sayýlarýn ondalýk gösterimleriyle yapýlan iþlemlerin sonucunu tahmin eder_  0,1; 0,25; 0,5 gibi ondalýk gösterimlerin kullanýlabileceði günlük hayata iliþkin tahminlerle sýnýrlý kalýnýr_ 
+Ondalýk ifadelerle dört iþlem yapmayý gerektiren problemleri çözer_ 
+Oran  Terimler veya kavramlar: oran, birimli oran, birimsiz oran  Semboller: a/b a:b; ; a/b 
+Çokluklarý karþýlaþtýrmada oran kullanýr ve oraný farklý biçimlerde gösterir_  5:6, 5/6 , 5’in 6’ya oraný gibi farklý gösterimler kullanýlýr_ 
+Bir bütünün iki parçaya ayrýldýðý durumlarda iki parçanýn birbirine veya her bir parçanýn bütüne oranýný belirler, problem durumlarýnda oranlardan biri verildiðinde diðerini bulur_  Örnek durumlar: Bir sýnýfta kýzlarýn sayýsýnýn erkeklerin sayýsýna oraný 2/3 ise kýzlarýn sayýsýnýn sýnýf mevcuduna oraný nedir?  Bir sýnýfta kýzlarýn sayýsýnýn sýnýf mevcuduna oraný 2/5 ise erkeklerin sayýsýnýn kýzlarýn sayýsýna oraný nedir? 
+Ayný veya farklý birimlerdeki iki çokluðun birbirine oranýný belirler_ 
+Örneðin 3 saatte 150 km giden bir aracýn aldýðý yolun geçen süreye oraný 150 km / 3 sa_ = 50 km/sa_ olarak yazýldýðýndan bu oran birimlidir_ 6A sýnýfýnýn topladýðý plastik kapaklarýn sayýsýnýn 6B sýnýfýnýn topladýðý plastik kapaklarýn sayýsýna oraný 180 adet/120 adet = 3/2 olarak yazýlýr ve bu oran birimsizdir_ 
+Birimli oranlardan sürat birimi olan km/sa_ ile m/sn_ arasýnda dönüþümler yapýlýr_ 
+CEBÝR 
+Cebirsel Ýfadeler  Terimler veya kavramlar: cebirsel ifade, deðiþken, katsayý, terim, sabit terim, benzer terim 
+Sözel olarak verilen bir duruma uygun cebirsel ifade ve verilen bir cebirsel ifadeye uygun sözel bir durum yazar_ 
+Cebirsel ifadelerde kullanýlan harflerin sayýlarý temsil ettiði ve “deðiþken” olarak adlandýrýldýðý belirtilir_ 
+En az bir deðiþken ve iþlem içeren ifadelerin “cebirsel ifadeler” olduðu vurgulanýr_ c) Terim, sabit terim, benzer terim ve katsayý kavramlarý ele alýnýr_ 
+Cebirsel ifadenin deðerini deðiþkenin alacaðý farklý doðal sayý deðerleri için hesaplar_ 
+Basit cebirsel ifadelerin anlamýný açýklar_  Bu düzeyde 4a, a/5, 2±a/5 , biçimindeki cebirsel ifadelerin anlaþýlmasýna yönelik çalýþmalara yer verilir_  Örneðin a + a + a + a = 4a, 2b = b + b,  3+c/5 = 3/5 + c/5 , d/5 = 1/5 _ d gibi iþleme dayalý uygulamalarýn yaný sýra aþaðýda örneklendiði gibi uygun modellerle çalýþmalar yapýlýr_ 
+GEOMETRÝ VE ÖLÇME 
+Açýlar  Terimler veya kavramlar: komþu açý, tümler açý, bütünler açý, komþu tümler açý, komþu bütünler açý, ters açý
+Açýyý, baþlangýç noktalarý ayný olan iki ýþýnýn oluþturduðunu bilir ve sembolle gösterir_ 
+Bir açýya eþ bir açý çizer_  Kareli kâðýt üzerinde çalýþýlmasý istenir_ Bununla birlikte açýölçer ve benzeri araçlar kullanýlabilir_ 
+Komþu, tümler, bütünler ve ters açýlarýn özelliklerini keþfeder; ilgili problemleri çözer_ 
+Alan Ölçme  Terimler veya kavramlar: ar, dekar, hektar  Semboller: km², hm², dam², m², dm², cm², mm² 
+Üçgenin alan baðýntýsýný oluþturur, ilgili problemleri çözer_ a) Noktalý veya kareli kâðýtta üçgenlerde yükseklik çizme çalýþmalarýna yer verilir_ Geniþ açýlý üçgenlerdeki yükseklikler de ele alýnýr_ b) Üçgenin alan baðýntýsý oluþturulurken dikdörtgenin alan baðýntýsýndan yararlanýlabilir_
+Paralelkenarýn alan baðýntýsýný oluþturur, ilgili problemleri çözer_
+Noktalý veya kareli kâðýtta paralelkenarýn bir kenarýna ait yüksekliði çizmeye yönelik çalýþmalara yer verilir_ 
+Paralelkenarýn alan baðýntýsý oluþturulurken dikdörtgenin alan baðýntýsýndan yararlanýlabilir_ 
+Kare ve dikdörtgenin, paralelkenarýn özel durumlarý olduðu vurgulanýr_
+Alan ölçme birimlerini tanýr, m²–km², m²–cm²–mm² birimlerini birbirine dönüþtürür_ 
+Arazi ölçme birimlerini tanýr ve standart alan ölçme birimleriyle iliþkilendirir_ 
+Alan ile ilgili problemleri çözer_  Üçgen, dikdörtgen ve paralelkenardan oluþan bileþik þekillerin (örneðin açýk zarf) alanlarýný içeren problemlere yer verilir_ 
+Çember  Terimler veya kavramlar: çap, yarýçap, merkez, çember, daire  Semboller: r, R, ? 
+Çember çizerek merkezini, yarýçapýný ve çapýný tanýr_ a) Pergel kullanmaya yönelik çalýþmalara yer verilir_ b) Çember ile daire arasýndaki iliþki belirtilir_ 
+Bir çemberin uzunluðunun çapýna oranýnýn sabit bir deðer olduðunu ölçme yaparak belirler_  Bu sabit deðere ? (pi) denildiði vurgulanýr_ ? ile ilgili problemler verildiðinde, kullanýlmasý istenen yaklaþýk deðer her seferinde “?’yi 3 alýnýz; 22/7 alýnýz; 3,14 alýnýz_” gibi ifadelerle belirtilir_ 
+Çapý veya yarýçapý verilen bir çemberin uzunluðunu hesaplamayý gerektiren problemleri çözer_ 
+Geometrik Cisimler  Terimler veya kavramlar: birimküp, hacim, metreküp, desimetreküp, santimetreküp, milimetreküp  Semboller: m³, dm³, cm³, mm³ 
+Dikdörtgenler prizmasýnýn içine boþluk kalmayacak biçimde yerleþtirilen birimküp sayýsýnýn o cismin hacmi olduðunu anlar, verilen cismin hacmini birimküpleri sayarak hesaplar_ a) Öðrencilerin hacmi ölçmeye yönelik stratejiler geliþtirmesine fýrsat verilir_ Örneðin birimküpler sayýlýrken oluþan tabakalarda kaçar tane birimküp olduðuna ve toplam kaç tabaka bulunduðuna dikkat çekilir_ b) Hacmi anlamlandýrmaya yönelik çalýþmalara yer verilir_ Hacmin, herhangi bir cismin boþlukta kapladýðý yer olduðu vurgulanýr_
+Verilen bir hacim ölçüsüne sahip farklý dikdörtgenler prizmalarýný birimküplerle oluþturur, hacmin taban alaný ile yüksekliðin çarpýmý olduðunu gerekçesiyle açýklar_ 
+Kare prizma ve küpün, dikdörtgenler prizmasýnýn özel bir hâli olduðu dikkate alýnýr_ 
+Hacim baðýntýsýnýn oluþturulmasý modeller yardýmýyla yapýlýr_ 
+Verilen bir hacim ölçüsüne sahip, prizma olmayan farklý yapýlar oluþturmaya yönelik çalýþmalara da yer verilir_ 
+Standart hacim ölçme birimlerini tanýr ve cm³, dm³, m³ birimleri arasýnda dönüþüm yapar_ Hacim ölçme birimleri m³, dm³, cm³ ve mm³ ile sýnýrlandýrýlýr_ 
+Dikdörtgenler prizmasýnýn hacim baðýntýsýný oluþturur, ilgili problemleri çözer_ Bilgi ve iletiþim teknolojilerinden, örneðin üç boyutlu dinamik geometri yazýlýmlarýndan yararlanýlabilir_ 
+Dikdörtgenler prizmasýnýn hacmini tahmin eder_ 
+Sývý Ölçme  Terimler veya kavramlar: litre, desilitre, santilitre, mililitre  Semboller: L, dL, cL, mL 
+Sývý ölçme birimlerini tanýr ve birbirine dönüþtürür_ a) Sývý ölçme birimleri ile ilgili dönüþümler sadece L, cL ve mL arasýnda yapýlýr_ b) 1 litrenin 1 dm³ olduðunu fark etmeye yönelik çalýþmalar yapýlýr_ 
+Sývý ölçme birimlerini hacim ölçme birimleri ile iliþkilendirir_ Sývý ölçme birimleri, hacim ölçme birimleriyle iliþkilendirilerek sývý ölçülerinin temelde özel birer hacim ölçüsü olduðu vurgulanýr_ 
+Sývý ölçme birimleriyle ilgili problemler çözer_ 
+VERÝ ÝÞLEME 
+Veri Toplama ve Deðerlendirme  Terimler veya kavramlar: ikili sütun grafiði, ikili sýklýk grafiði, eksenler 
+Ýki veri grubunu karþýlaþtýrmayý gerektiren araþtýrma sorularý oluþturur ve uygun verileri elde eder_ 
+Örneðin sýnýfýmýzdaki kýz ve erkek öðrencilerin en sevdikleri renkler nelerdir? 
+Beþ büyük ilde 1990 ve 2010 yýllarýnda hizmet veren kaç tane hastane vardýr? c) Süreksiz veri gruplarýyla sýnýrlý kalýnýr_ Sürekli ve süreksiz veri kavramýna girilmez_
+Ýki gruba ait verileri ikili sýklýk tablosu ve sütun grafiði ile gösterir_ 
+Veri Analizi  Terimler veya kavramlar: en küçük deðer, en büyük deðer, açýklýk, aritmetik ortalama 
+Bir veri grubuna ait açýklýðý hesaplar ve yorumlar_ 
+Bir veri grubuna ait aritmetik ortalamayý hesaplar ve yorumlar_
+Ýki gruba ait verileri karþýlaþtýrmada ve yorumlamada aritmetik ortalama ve açýklýðý kullanýr_  Aritmetik ortalama ve açýklýðý gerçek hayat durumlarýnda yorumlamaya yönelik çalýþmalara yer verilir_ 
+ 
+
+
+
+

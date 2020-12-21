@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Uzungöl Py Team</author>
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Benim İçin Kaydet</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>30</width>
+    <height>30</height>
+   </size>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuKullan_c_lemleri">
+    <property name="title">
+     <string>Kullanıcı İşlemleri</string>
+    </property>
+    <addaction name="actionKaydol"/>
+    <addaction name="actionKullan_c_Ayarlar"/>
+    <addaction name="actionGiri"/>
+    <addaction name="action_k"/>
+   </widget>
+   <widget class="QMenu" name="menuPlanlama">
+    <property name="title">
+     <string>Planlama</string>
+    </property>
+    <widget class="QMenu" name="menuMatematik">
+     <property name="title">
+      <string>Matematik</string>
+     </property>
+     <addaction name="actionM_fredat_Y_kle"/>
+     <addaction name="actionZaman_Atamas_Yap"/>
+     <addaction name="actionKonu_al"/>
+     <addaction name="actionKonu_G_r_nt_le"/>
+    </widget>
+    <widget class="QMenu" name="menuFen_Bilgisi">
+     <property name="title">
+      <string>Fen Bilgisi</string>
+     </property>
+     <addaction name="actionM_fredat_Y_kle_2"/>
+     <addaction name="actionZaman_Atamas_Yap_2"/>
+     <addaction name="actionKonu_al_2"/>
+     <addaction name="actionKonu_G_r_nt_le_2"/>
+    </widget>
+    <widget class="QMenu" name="menuSosyal_Bilgisi">
+     <property name="title">
+      <string>Sosyal Bilgisi</string>
+     </property>
+     <addaction name="actionM_fredat_Y_kle_3"/>
+     <addaction name="actionZaman_Atamas_Yap_3"/>
+     <addaction name="actionKonu_al_3"/>
+     <addaction name="actionKonu_G_r_nt_le_3"/>
+    </widget>
+    <widget class="QMenu" name="menuT_rk_e">
+     <property name="title">
+      <string>Türkçe</string>
+     </property>
+     <addaction name="actionM_fredat_Y_kle_4"/>
+     <addaction name="actionZaman_Atamas_Yap_4"/>
+     <addaction name="actionKonu_al_4"/>
+     <addaction name="actionKonu_G_r_nt_le_4"/>
+    </widget>
+    <addaction name="menuMatematik"/>
+    <addaction name="menuFen_Bilgisi"/>
+    <addaction name="menuSosyal_Bilgisi"/>
+    <addaction name="menuT_rk_e"/>
+   </widget>
+   <widget class="QMenu" name="menuProgram_Ata">
+    <property name="title">
+     <string>Program Ata</string>
+    </property>
+    <widget class="QMenu" name="menuS_navlar">
+     <property name="title">
+      <string>Sınavlar</string>
+     </property>
+     <addaction name="actionKonu_Testi"/>
+     <addaction name="actionAlt_Konu_Testi"/>
+     <addaction name="actionQuiz"/>
+     <addaction name="actionDeneme_S_nav"/>
+     <addaction name="actionOkul_S_nav"/>
+    </widget>
+    <addaction name="actionEBA"/>
+    <addaction name="actionZoom"/>
+    <addaction name="menuS_navlar"/>
+   </widget>
+   <widget class="QMenu" name="menuProgramlar_m_Analiz_Et_ve_Son_Halini_Ver">
+    <property name="title">
+     <string>Programlarımı Analiz Et ve Son Halini Ver</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuProgramlar_m">
+    <property name="title">
+     <string>Programlarım</string>
+    </property>
+    <addaction name="actionG_nl_k_Program_m"/>
+    <addaction name="actionHaftal_k_Program_m"/>
+    <addaction name="actionAyl_k_Program_m"/>
+    <addaction name="actionD_nemlik_Program_m"/>
+    <addaction name="actionY_ll_k_Program_m"/>
+   </widget>
+   <widget class="QMenu" name="menu_lerleme_Durumum_ve_Analiz">
+    <property name="title">
+     <string>İlerleme Durumum ve Analiz</string>
+    </property>
+    <widget class="QMenu" name="menuMatematik_2">
+     <property name="title">
+      <string>Matematik</string>
+     </property>
+     <addaction name="actionS_nav_Analizi"/>
+     <addaction name="actionKonu_Analizi"/>
+     <addaction name="actionEksik_Konular"/>
+     <addaction name="actionGenel_lerleme"/>
+    </widget>
+    <widget class="QMenu" name="menuFen_Bilgisi_2">
+     <property name="title">
+      <string>Fen Bilgisi</string>
+     </property>
+     <addaction name="actionS_nav_Analizi_2"/>
+     <addaction name="actionKonu_Analizi_2"/>
+     <addaction name="actionEksik_Konular_2"/>
+     <addaction name="actionGenel_lerleme_2"/>
+    </widget>
+    <widget class="QMenu" name="menuSosyal_Bilimler">
+     <property name="title">
+      <string>Sosyal Bilimler</string>
+     </property>
+     <addaction name="actionS_nav_Analizi_3"/>
+     <addaction name="actionKonu_Analizi_3"/>
+     <addaction name="actionEksik_Konular_3"/>
+     <addaction name="actionGenel_lerleme_3"/>
+    </widget>
+    <widget class="QMenu" name="menuT_rk_e_2">
+     <property name="title">
+      <string>Türkçe</string>
+     </property>
+     <addaction name="actionS_nav_Analizi_4"/>
+     <addaction name="actionKonu_Analizi_4"/>
+     <addaction name="actionEksik_Konular_4"/>
+     <addaction name="actionGenel_lerleme_4"/>
+    </widget>
+    <addaction name="menuMatematik_2"/>
+    <addaction name="menuFen_Bilgisi_2"/>
+    <addaction name="menuSosyal_Bilimler"/>
+    <addaction name="menuT_rk_e_2"/>
+   </widget>
+   <widget class="QMenu" name="menuHakk_m_zda">
+    <property name="title">
+     <string>Hakkımızda</string>
+    </property>
+    <addaction name="actionHakk_m_zda"/>
+    <addaction name="actionGeli_tiriciler_in"/>
+   </widget>
+   <addaction name="menuKullan_c_lemleri"/>
+   <addaction name="menuPlanlama"/>
+   <addaction name="menuProgram_Ata"/>
+   <addaction name="menuProgramlar_m_Analiz_Et_ve_Son_Halini_Ver"/>
+   <addaction name="menuProgramlar_m"/>
+   <addaction name="menu_lerleme_Durumum_ve_Analiz"/>
+   <addaction name="menuHakk_m_zda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionKaydol">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Kaydol</string>
+   </property>
+  </action>
+  <action name="actionKullan_c_Ayarlar">
+   <property name="text">
+    <string>Kullanıcıı Ayarları</string>
+   </property>
+  </action>
+  <action name="actionGiri">
+   <property name="text">
+    <string>Giriş</string>
+   </property>
+  </action>
+  <action name="action_k">
+   <property name="text">
+    <string>Çıkış</string>
+   </property>
+  </action>
+  <action name="actionM_fredat_Y_kle">
+   <property name="text">
+    <string>Müfredat Yükle</string>
+   </property>
+  </action>
+  <action name="actionZaman_Atamas_Yap">
+   <property name="text">
+    <string>Zaman Ataması Yap</string>
+   </property>
+  </action>
+  <action name="actionKonu_al">
+   <property name="text">
+    <string>Konu Çalış</string>
+   </property>
+  </action>
+  <action name="actionKonu_G_r_nt_le">
+   <property name="text">
+    <string>Konu Görüntüle</string>
+   </property>
+  </action>
+  <action name="actionM_fredat_Y_kle_2">
+   <property name="text">
+    <string>Müfredat Yükle</string>
+   </property>
+  </action>
+  <action name="actionZaman_Atamas_Yap_2">
+   <property name="text">
+    <string>Zaman Ataması Yap</string>
+   </property>
+  </action>
+  <action name="actionKonu_al_2">
+   <property name="text">
+    <string>Konu Çalış</string>
+   </property>
+  </action>
+  <action name="actionKonu_G_r_nt_le_2">
+   <property name="text">
+    <string>Konu Görüntüle</string>
+   </property>
+  </action>
+  <action name="actionM_fredat_Y_kle_3">
+   <property name="text">
+    <string>Müfredat Yükle</string>
+   </property>
+  </action>
+  <action name="actionZaman_Atamas_Yap_3">
+   <property name="text">
+    <string>Zaman Ataması Yap</string>
+   </property>
+  </action>
+  <action name="actionKonu_al_3">
+   <property name="text">
+    <string>Konu Çalış</string>
+   </property>
+  </action>
+  <action name="actionKonu_G_r_nt_le_3">
+   <property name="text">
+    <string>Konu Görüntüle</string>
+   </property>
+  </action>
+  <action name="actionM_fredat_Y_kle_4">
+   <property name="text">
+    <string>Müfredat Yükle</string>
+   </property>
+  </action>
+  <action name="actionZaman_Atamas_Yap_4">
+   <property name="text">
+    <string>Zaman Ataması Yap</string>
+   </property>
+  </action>
+  <action name="actionKonu_al_4">
+   <property name="text">
+    <string>Konu Çalış</string>
+   </property>
+  </action>
+  <action name="actionKonu_G_r_nt_le_4">
+   <property name="text">
+    <string>Konu Görüntüle</string>
+   </property>
+  </action>
+  <action name="actionEBA">
+   <property name="text">
+    <string>EBA</string>
+   </property>
+  </action>
+  <action name="actionZoom">
+   <property name="text">
+    <string>Zoom</string>
+   </property>
+  </action>
+  <action name="actionKonu_Testi">
+   <property name="text">
+    <string>Konu Testi</string>
+   </property>
+  </action>
+  <action name="actionAlt_Konu_Testi">
+   <property name="text">
+    <string>Alt Konu Testi</string>
+   </property>
+  </action>
+  <action name="actionQuiz">
+   <property name="text">
+    <string>Quiz</string>
+   </property>
+  </action>
+  <action name="actionDeneme_S_nav">
+   <property name="text">
+    <string>Deneme Sınavı</string>
+   </property>
+  </action>
+  <action name="actionOkul_S_nav">
+   <property name="text">
+    <string>Okul Sınavı</string>
+   </property>
+  </action>
+  <action name="actionG_nl_k_Program_m">
+   <property name="text">
+    <string>Günlük Programım</string>
+   </property>
+  </action>
+  <action name="actionHaftal_k_Program_m">
+   <property name="text">
+    <string>Haftalık Programım,</string>
+   </property>
+  </action>
+  <action name="actionAyl_k_Program_m">
+   <property name="text">
+    <string>Aylık Programım</string>
+   </property>
+  </action>
+  <action name="actionD_nemlik_Program_m">
+   <property name="text">
+    <string>Dönemlik Programım</string>
+   </property>
+  </action>
+  <action name="actionY_ll_k_Program_m">
+   <property name="text">
+    <string>Yıllık Programım</string>
+   </property>
+  </action>
+  <action name="actionS_nav_Analizi">
+   <property name="text">
+    <string>Sınav Analizi</string>
+   </property>
+  </action>
+  <action name="actionKonu_Analizi">
+   <property name="text">
+    <string>Konu Analizi</string>
+   </property>
+  </action>
+  <action name="actionEksik_Konular">
+   <property name="text">
+    <string>Eksik Konular</string>
+   </property>
+  </action>
+  <action name="actionGenel_lerleme">
+   <property name="text">
+    <string>Genel İlerleme</string>
+   </property>
+  </action>
+  <action name="actionS_nav_Analizi_2">
+   <property name="text">
+    <string>Sınav Analizi</string>
+   </property>
+  </action>
+  <action name="actionKonu_Analizi_2">
+   <property name="text">
+    <string>Konu Analizi</string>
+   </property>
+  </action>
+  <action name="actionEksik_Konular_2">
+   <property name="text">
+    <string>Eksik Konular</string>
+   </property>
+  </action>
+  <action name="actionGenel_lerleme_2">
+   <property name="text">
+    <string>Genel İlerleme</string>
+   </property>
+  </action>
+  <action name="actionS_nav_Analizi_3">
+   <property name="text">
+    <string>Sınav Analizi</string>
+   </property>
+  </action>
+  <action name="actionKonu_Analizi_3">
+   <property name="text">
+    <string>Konu Analizi</string>
+   </property>
+  </action>
+  <action name="actionEksik_Konular_3">
+   <property name="text">
+    <string>Eksik Konular</string>
+   </property>
+  </action>
+  <action name="actionGenel_lerleme_3">
+   <property name="text">
+    <string>Genel İlerleme</string>
+   </property>
+  </action>
+  <action name="actionS_nav_Analizi_4">
+   <property name="text">
+    <string>Sınav Analizi</string>
+   </property>
+  </action>
+  <action name="actionKonu_Analizi_4">
+   <property name="text">
+    <string>Konu Analizi</string>
+   </property>
+  </action>
+  <action name="actionEksik_Konular_4">
+   <property name="text">
+    <string>Eksik Konular</string>
+   </property>
+  </action>
+  <action name="actionGenel_lerleme_4">
+   <property name="text">
+    <string>Genel İlerleme</string>
+   </property>
+  </action>
+  <action name="actionHakk_m_zda">
+   <property name="text">
+    <string>Hakkımızda</string>
+   </property>
+  </action>
+  <action name="actionVersiyon">
+   <property name="text">
+    <string>Versiyon</string>
+   </property>
+  </action>
+  <action name="actionGeli_tiriciler_in">
+   <property name="text">
+    <string>Geliştiriciler İçin</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

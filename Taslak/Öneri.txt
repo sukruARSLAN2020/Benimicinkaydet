@@ -1,0 +1,36 @@
+Sevgili öğretmen arkadaşlar;
+
+1. Örnek olarak 30 Kasım - 06 Aralık haftasına ait EBA tv ders programı 
+internet üzerinden indirilmiş ve EXCEL' e dönüştürülmüş,
+
+2. Örnek sınıf olarak alınan 6 sınıfa ait 
+	Türkçe,
+	Matematik,
+	Fen Bilgisi,
+	Sosyal bilgiler derslerine ait kazanımlar WORD dosya
+içeriklerinde mevcut olup bu dosyalar Eylül - Haziran ayları 
+içerisinde kullanıcının belirleyeceği ders programına göre 
+dağıtılacak ve uygulandığında kullanıcı özeti girp gerektiğinde 
+çalışması sağlanacak,
+
+3. Sırası geldiğinde öğrenci/ veli zoom canlı ders alarmı kuracak,
+
+4. Sırası geldiğinde öğrenci / veli EBA canlı ders alarmı kuracak,
+
+5. Öğrenci
+	Quiz,	
+	Konu Testi,
+	Tarama Testi,
+	Deneme sınavı,
+	Okul sınav takvimini ekleyecek bunların sonuçlarını sisteme 
+ekleyecek ve gerektiğinde  raporlayacak,
+
+6. Uygulamma WEB temelli olacak, öğrenci / veli E Posta veya sizin önereceğiniz 
+bir yöntemle bilgilendirmemiz gerekiyor.
+
+Naçizane benim görüşlerim böyle, umarım size bir fikir verebilmişimdir, tasarım
+sürecini başlatılması faydamıza olacaktır. Veri tasarımı, Ara yüz tasarımı, 
+kod tasarımını yapıp zaman çizelgesini oluşturmamız gerekiyır,
+Hepinize teşşekkürler
+
+
