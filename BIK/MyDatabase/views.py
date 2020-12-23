@@ -1,17 +1,23 @@
 from django.shortcuts import render, HttpResponse, get_object_or_404, HttpResponseRedirect, redirect, Http404
-from .models import MyDatabase
-from .forms import PostForm, CommentForm
 from django.contrib import messages
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.db.models import Q
 
+from .models import Ders
+from .forms import PostForm, CommentForm
 
-def MyDatabase_index(request):
+def Ders_index(request):
+    Derss=Ders.objects.all()
+    return render(request,'Ders/index.html',{'Derss':Derss})
+
+
+#def Ders_index(request):
+    
     MyDatabase_list = MyDatabase.objects.all()
 
     query = request.GET.get('q')
     if query:
-        post_list = post_list.filter(
+        Ders_list = Ders_list.filter(
             Q(title__icontains=query) |
             Q(content__icontains=query) |
             Q(user__first_name__icontains=query) |
@@ -33,7 +39,7 @@ def MyDatabase_index(request):
     return render(request, "MyDatabase/index.html", {'posts': posts})
 
 
-def MyDatabase_detail(request, slug):
+#def MyDatabase_detail(request, slug):
     post = get_object_or_404(Post, slug=slug)
 
     form = CommentForm(request.POST or None)
@@ -50,7 +56,7 @@ def MyDatabase_detail(request, slug):
     return render(request, "MyDatabase/detail.html", context)
 
 
-def post_create(request):
+#def post_create(request):
     
 
     if not request.user.is_authenticated():
@@ -72,7 +78,7 @@ def post_create(request):
     return render(request, "MyDatabase/form.html", context)
 
 
-def MyDatabase_update(request, slug):
+#def MyDatabase_update(request, slug):
 
     if not request.user.is_authenticated():
         # Eğer kullanıcı giriş yapmamış ise hata sayfası gönder
@@ -92,7 +98,7 @@ def MyDatabase_update(request, slug):
     return render(request, "MyDatabase/form.html", context)
 
 
-def MyDatabase_delete(request, slug):
+#def MyDatabase_delete(request, slug):
 
     if not request.user.is_authenticated():
         # Eğer kullanıcı giriş yapmamış ise hata sayfası gönder
