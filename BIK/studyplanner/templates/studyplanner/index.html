@@ -1,0 +1,58 @@
+{% extends 'studyplanner/base.html' %}
+
+{% block title %}BIK Eğitim Öğretim Ajandam{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+	<div class="pageBody">
+		<div class="row">
+			<div class="col-sm-offset-2 col-md-offset-2 col-sm-8 col-md-8">
+				<div class="text-center" style="padding-top:35pt; padding-bottom: 35pt;">
+					<b class="extraBig">BIK Eğiitm Öğretim Ajandanıza Hoş Geldiniz</b>
+					<hr>
+				</div>
+			</div>
+		</div>
+		{% include 'studyplanner/messages.html' %}
+		<div class="panels">
+			{% if plans.count > 0 %}
+				<div class="row">
+					<div class="table-responsive dataTable">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>Plan no.</th>
+									<th>Adı</th>
+									<th>Eylem</th>
+								</tr>
+							</thead>
+							<tbody>
+								{% for plan in plans %}
+									<tr>
+										<td>{{ forloop.counter }}</td>
+										<td>{{ plan.name }}</td>
+										<td>
+											<a href="{% url 'studyplanner:plan-detail' pk=plan.pk %}">
+												<button class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span>&nbsp; Edit</button>
+											</a>
+											<a href="{% url 'studyplanner:print-plan' pk=plan.pk %}">
+												<button class="btn btn-info"></span>&nbsp;<span class="glyphicon glyphicon-print"></span>&nbsp; View/Print</button>
+											</a>											
+										</td>
+									</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			{% else %}
+				<div class="text-center">
+					<h3>Henüz Eylem Planınız Yok. <a href="{% url 'studyplanner:create-plan' %}">Create</a> a study plan now</h3>
+				</div>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+{% endblock %}
